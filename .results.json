@@ -1,0 +1,38 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2019-11-27T22:44:22.919Z",
+    "end": "2019-11-27T22:44:22.930Z",
+    "duration": 11
+  },
+  "tests": [
+    {
+      "title": "must match Hello World",
+      "fullTitle": "hello-world method in hello-world.js must match Hello World",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "/home/hilarious-demo-6237/node-hello-world-lab-dumbo-web-career-040119/hello-world.js:5\nmodule.exports = <helloWorld\n                 ^\n\nSyntaxError: Unexpected token <\n    at createScript (vm.js:80:10)\n    at Object.runInThisContext (vm.js:139:10)\n    at require (internal/module.js:11:18)\n    at Context.<anonymous> (test/index.js:5:22)",
+        "message": "Unexpected token <"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "must match Hello World",
+      "fullTitle": "hello-world method in hello-world.js must match Hello World",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "/home/hilarious-demo-6237/node-hello-world-lab-dumbo-web-career-040119/hello-world.js:5\nmodule.exports = <helloWorld\n                 ^\n\nSyntaxError: Unexpected token <\n    at createScript (vm.js:80:10)\n    at Object.runInThisContext (vm.js:139:10)\n    at require (internal/module.js:11:18)\n    at Context.<anonymous> (test/index.js:5:22)",
+        "message": "Unexpected token <"
+      }
+    }
+  ],
+  "passes": []
+}
