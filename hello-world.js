@@ -1,1 +1,1 @@
-var helloWorld
+var helloWorld = function()
